@@ -1,3 +1,4 @@
+// PALINDROMI
 const userWord =(prompt('inserisci una parola'));
 var userWordInvert = invertWord(userWord);
 
@@ -11,3 +12,6 @@ function invertWord(str){
   var strInvert = str.split('').reverse().join('');  
   return strInvert;
 }
+
+
+
